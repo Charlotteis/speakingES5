@@ -1,7 +1,8 @@
 # Basic JavaScript
 
-The official name for JavaScript is actually ECMAScript. The term
-'JavaScript' is trademarked by Oracle, but everyone uses it anyway.
+The official name for JavaScript is actually ECMAScript.
+
+The term 'JavaScript' is trademarked by Oracle, but everyone uses it anyway.
 
 JavaScript is missing much functionality that other languages have:
 e.g. Block Scoped variables, modules and support for subclassing.
@@ -52,7 +53,9 @@ strings, arrays and objects. Every value has a property, like
 
 Booleans, numbers, strings, null and undefined are termed "Primitive
 Values". Every other value is an object (objects, arrays, regular
-expressions). We can compare two primitives together, but every object
+expressions).
+
+We can compare two primitives together, but every object
 created (even if it has the same value) is unique and a comparison will
 always be False.
 
@@ -149,14 +152,14 @@ Or use Try and Catch.
 
 ## Strict mode
 
-`use strict;` - enables more warnings and makes JS cleaner. Can enable
-it per function, rather than the whole document, if necessary. (This is what is effectively done for Modules in ES6, IIRC).
+`use strict;` - enables more warnings and makes JS cleaner.
+Can enable it per function, rather than the whole document, if necessary. (This is what is effectively done for Modules in ES6, IIRC).
 
 ## IIFE
 
 If you want to prevent a variable from becoming global, you can't use
-a block so you must use a function. To use a function in a block-like
-manner, you can use the IIFE (Immediately Invoked Function Expression).
+a block so you must use a function.
+To use a function in a block-like manner, you can use the IIFE (Immediately Invoked Function Expression).
 
 ```javascript
 (function() {
@@ -235,4 +238,5 @@ console.log(timesTwo);
 ## Regular Expressions (RegEx)
 
 `expression.test('string')` - determine if your string matches a RegEx
+
 `string.replace('expression', 'thing to replace')`.
